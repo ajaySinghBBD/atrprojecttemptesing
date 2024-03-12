@@ -1,0 +1,27 @@
+
+server:
+  port : 8085
+
+spring:
+  datasource:
+    url: jdbc:sqlserver://kindnesskattledb.chevdymucho3.eu-west-1.rds.amazonaws.com:1433;databaseName=dbkindkattle;encrypt=true;trustServerCertificate=true
+    username: admin
+    password: imkrsnna
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+
+
+
+
+cloud:
+  aws:
+    credentials:
+      access-key: AKIATXL6BE63ETRISNCI
+      secret-key: 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
+    region:
+      static: us-east-1
+    stack:
+      auto: false
+application:
+  bucket:
+    name: testingabcde
+
